@@ -1,0 +1,10 @@
+{
+  "cluster_name": "from-script",
+  "spark_version": "4.1.x-scala2.11",
+  "node_type_id": "i3.xlarge",
+  "autoscale" :
+  {
+    "min_workers": 2,
+    "max_workers": 4
+  }
+}
