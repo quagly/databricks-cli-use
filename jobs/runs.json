@@ -1,0 +1,304 @@
+{
+  "runs": [
+    {
+      "job_id": 2,
+      "run_id": 7,
+      "number_in_job": 7,
+      "original_attempt_run_id": 7,
+      "state": {
+        "life_cycle_state": "TERMINATED",
+        "result_state": "SUCCESS",
+        "state_message": ""
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "cluster_instance": {
+        "cluster_id": "0628-171452-night399",
+        "spark_context_id": "3520659351642244589"
+      },
+      "start_time": 1530206090760,
+      "setup_duration": 42000,
+      "execution_duration": 17000,
+      "cleanup_duration": 1000,
+      "trigger": "ONE_TIME",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/7",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 6,
+      "number_in_job": 6,
+      "original_attempt_run_id": 6,
+      "state": {
+        "life_cycle_state": "SKIPPED",
+        "state_message": "Skipping this run because the limit of 1 maximum concurrent runs has been reached."
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "start_time": 1530205930370,
+      "setup_duration": 0,
+      "execution_duration": 0,
+      "cleanup_duration": 0,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/6",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 5,
+      "number_in_job": 5,
+      "original_attempt_run_id": 5,
+      "state": {
+        "life_cycle_state": "TERMINATED",
+        "result_state": "SUCCESS",
+        "state_message": ""
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "cluster_instance": {
+        "cluster_id": "0628-171111-start392",
+        "spark_context_id": "4020197904005320752"
+      },
+      "start_time": 1530205870289,
+      "setup_duration": 46000,
+      "execution_duration": 20000,
+      "cleanup_duration": 1000,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/5",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 4,
+      "number_in_job": 4,
+      "original_attempt_run_id": 4,
+      "state": {
+        "life_cycle_state": "SKIPPED",
+        "state_message": "Skipping this run because the limit of 1 maximum concurrent runs has been reached."
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "start_time": 1530205810269,
+      "setup_duration": 0,
+      "execution_duration": 0,
+      "cleanup_duration": 0,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/4",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 3,
+      "number_in_job": 3,
+      "original_attempt_run_id": 3,
+      "state": {
+        "life_cycle_state": "SKIPPED",
+        "state_message": "Skipping this run because the limit of 1 maximum concurrent runs has been reached."
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "start_time": 1530205750291,
+      "setup_duration": 0,
+      "execution_duration": 0,
+      "cleanup_duration": 0,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/3",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 2,
+      "number_in_job": 2,
+      "original_attempt_run_id": 2,
+      "state": {
+        "life_cycle_state": "TERMINATED",
+        "result_state": "SUCCESS",
+        "state_message": ""
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "task": {
+        "notebook_task": {
+          "notebook_path": "/Users/mike@arsquanta.com/describe-my-ec2",
+          "revision_timestamp": 0
+        }
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "cluster_instance": {
+        "cluster_id": "0628-170811-whom372",
+        "spark_context_id": "1293874370731557292"
+      },
+      "start_time": 1530205690280,
+      "setup_duration": 142000,
+      "execution_duration": 20000,
+      "cleanup_duration": 2000,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/2",
+      "run_type": "JOB_RUN"
+    },
+    {
+      "job_id": 2,
+      "run_id": 1,
+      "number_in_job": 1,
+      "original_attempt_run_id": 1,
+      "state": {
+        "life_cycle_state": "INTERNAL_ERROR",
+        "state_message": "No task defined."
+      },
+      "schedule": {
+        "quartz_cron_expression": "10 * * * * ?",
+        "timezone_id": "US/Pacific"
+      },
+      "cluster_spec": {
+        "new_cluster": {
+          "spark_version": "4.1.x-scala2.11",
+          "aws_attributes": {
+            "zone_id": "us-west-2b",
+            "first_on_demand": 1,
+            "availability": "SPOT_WITH_FALLBACK"
+          },
+          "node_type_id": "i3.xlarge",
+          "enable_elastic_disk": false,
+          "num_workers": 8
+        }
+      },
+      "start_time": 1530205630297,
+      "setup_duration": 0,
+      "execution_duration": 0,
+      "cleanup_duration": 0,
+      "trigger": "PERIODIC",
+      "creator_user_name": "quagly@gmail.com",
+      "run_name": "First-test-job",
+      "run_page_url": "https://dbc-7fb34c43-52f3.cloud.databricks.com/?o=2937363936215754#job/2/run/1",
+      "run_type": "JOB_RUN"
+    }
+  ],
+  "has_more": false
+}
