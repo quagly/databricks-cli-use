@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # get all supported databricks node instance types
 # exclude deprecated instances

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # get most recent databricks spark_version that is not gpu, ml, or beta
 # ml depends on operational security package
