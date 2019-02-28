@@ -1,10 +1,22 @@
 {
-  "cluster_name": "from-script",
-  "spark_version": "4.1.x-scala2.11",
-  "node_type_id": "i3.xlarge",
-  "autoscale" :
-  {
-    "min_workers": 2,
-    "max_workers": 4
-  }
+    "num_workers": 2,
+    "cluster_name": "mikes-small-cluster",
+    "spark_version": "5.2.x-scala2.11",
+    "spark_conf": {},
+    "aws_attributes": {
+        "first_on_demand": 1,
+        "availability": "SPOT_WITH_FALLBACK",
+        "zone_id": "",
+        "instance_profile_arn": "arn:aws:iam::899258260415:instance-profile/zignal-databricks2",
+        "spot_bid_price_percent": 100,
+        "ebs_volume_count": 0
+    },
+    "node_type_id": "i3.xlarge",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {
+        "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "autotermination_minutes": 120,
+    "init_scripts": []
 }
